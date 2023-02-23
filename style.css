@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@300;400&family=Roboto:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(110, 165, 255, 0.67);
+}
+.container {
+  background-color: rgb(187, 213, 255);
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 4%;
+  border-radius: 5px;
+  padding: 25px;
+}
+#title {
+  font-family: "Roboto", sans-serif;
+  color: #000000a6;
+  font-size: 2rem;
+}
+
+.qns-ans {
+  background-color: rgba(255, 255, 255, 0.32);
+  margin-top: 2rem;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.qns {
+  display: flex;
+  justify-content: space-between;
+}
+.qns h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #00000091;
+  font-size: 25px;
+}
+.ans p {
+  font-family: "Poppins", sans-serif;
+  color: #000000a6;
+  font-size: 15px;
+}
+.ans {
+  display: none;
+  margin-top: 10px;
+}
+.qns i {
+  font-size: 25px;
+  color: #00000091;
+}
+.show-ans {
+  display: block;
+}
